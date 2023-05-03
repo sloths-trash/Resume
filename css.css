@@ -1,0 +1,343 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+}
+.top-container{
+    background-image: url("hanzo.png");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    background-attachment: fixed;
+    height: 763px;
+    text-align: center;
+}
+.intro{
+    margin: 0 auto 0 auto;
+    color: bisque;
+    font-size: 66px;
+    border-bottom: 1px solid bisque;
+    padding-bottom: 20px;
+    width: 40%;
+    font-weight: bold;
+}
+hr{
+    border-style: solid none none;
+    border-color:bisque;
+    border-width: px;
+    width: 40%;
+    text-align: center;
+    opacity: 0.2;
+    margin-top: 5%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 40, 40, 0.341);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.a{
+    height: 300px;
+    width: 70%;
+    text-align: center;
+}
+p{
+    margin: 0 auto 0 auto;
+    color: bisque;
+    font-size: 22px;
+    position: relative;
+    top: 11%;
+}
+.scroll{
+    height: 80px;
+    width: 110px;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: bisque;
+    text-align: center;
+    z-index: 6;
+}
+.material-symbols-outlined{
+    color: white;
+
+}
+.fa-sharp{
+    color: #805a36;
+    font-size: 35px;
+    position: relative;
+    top: 20%;
+    left: 100%;
+}
+@media (max-width: 1250px) 
+{
+    .top-container{
+        background-size: cover;
+        height: 100%;
+    }
+    .scroll{
+        width: 100%;
+        right: 0;
+        justify-content: center;
+    }
+}
+
+
+
+/* profile div starts here */
+.profile-container{
+    background-color: white;
+    text-align: center;
+    padding: 20 0 20 0;
+}
+.profile-h2{
+    color: #805a36;
+}
+.profile-para{
+    color: #d19d59;
+    font-size: 20px;
+    
+}
+.profile-hr{
+    border-color: #805a36;
+    opacity: 0.3;
+    margin-top: 2%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+    }
+.profile-head{
+    color: #805a36;
+    text-align: left;
+}
+.about-para{
+    text-align: left;
+    font-size: 17px;
+    color: #d19d59;
+
+}
+.column1{
+        flex-basis: 200px;
+        margin-bottom: 20px;
+        overflow-wrap: break-word;
+        padding: 0px 10px 20px 10px;
+}
+.column2{
+    flex-basis: 200px;
+    text-align: center;
+}
+.profile-para2{
+    text-align: left;
+    font-size: 17px;
+    color: #d19d59;
+}
+.strong{
+    color: #ad815a;
+    text-align: left;
+}
+@media (max-width: 1250px){
+    .row{
+        flex-direction: column;
+    }
+    .profile-head{
+        text-align: center;
+    }
+    .about-para{
+        text-align: center;
+    }
+    .column2{
+        justify-content: center;
+    }
+    .profile-para{
+        font-size: 15px;
+    }
+    .about-para{
+        font-size: 15px;
+        text-align: center;
+    }
+    .profile-para2{
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+/* Experience div starts here*/
+.experience{
+    background-color: bisque;
+    text-align: center;
+    padding: 40px 180px;
+
+}
+.exp-h2{
+    text-align: center;
+    color: #805a36;
+}
+.exp-para{
+    color: #d19d59;
+}
+.exp-hr{
+    border-color: #805a36;
+    opacity: 0.3;
+    margin-top: 2%;
+}
+.exp-h3{
+    color: #805a36;
+    font-size: 28px;
+    text-align: left;
+    width: 610px;
+    margin:auto;
+    padding-top:30px ;
+}
+.education{
+    height: 457px;
+    width: 610px;
+    margin: auto;
+}
+.exp-col{
+
+    text-align: left;
+    float: left;
+    margin-left: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+.exp-col2{
+    height: 81px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0;
+}
+h4{
+    color: #805a36;
+}
+.exp-period{
+    color: #d19d59;
+    font-size: 17px;
+}
+
+/* contact div starts here */
+.contact-background{
+    background-color: #ad815a;
+    text-align: center;
+    display: flex;
+}
+#contact{
+    width: 1680px;
+    padding-bottom: 200px;
+    padding: 40px 180px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color: bisque;
+}
+.qoute{
+    color: #fffbf7;
+}
+.wrapper{
+    display: inline-flex;
+    padding-top: 9%;
+}
+.wrapper .icon{
+    margin: 0px 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.68,-0.55, 0.265, 1.55);
+}
+.wrapper .icon span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #805a36;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68,-0.55, 0.265, 1.55);
+}
+.wrapper .icon span i{
+    line-height: 60px;
+    font-size: 25px;
+    color: bisque ;
+}
+.wrapper .icon .tooltip{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #805a36;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68,-0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #805a36;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover span i{
+    color:#805a36
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  }
+  .wrapper .twitter:hover span,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip:before{
+    background: bisque;
+  }
+  .wrapper .instagram:hover span,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip:before{
+    background: bisque;
+  }
+  .wrapper .github:hover span,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip:before{
+    background: bisque;
+  }
